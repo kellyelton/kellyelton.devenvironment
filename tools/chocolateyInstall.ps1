@@ -31,7 +31,7 @@ try {
 	$path = Join-Path $scriptDir "CloverSetup.exe"
 	Install-ChocolateyInstallPackage 'clover' 'exe' '/S' $path
 	Install-ChocolateyPinnedTaskBarItem "${env:ProgramFiles(x86)}\Clover\clover.exe"
-	
+	cinst virtuawin
     Write-ChocolateySuccess $packageName
 } catch {
   #Write-ChocolateyFailure $packageName "$($_.Exception.Message)"
