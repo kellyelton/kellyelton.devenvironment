@@ -9,9 +9,7 @@ function installsilentlymsi($url, $name) {
   Install-ChocolateyPackage $name 'exe' '/quite' $url
 }
 function installclover(){
-	$path = Join-Path "$(Split-Path -parent $MyInvocation.MyCommand.Definition)" 'CloverSetup.exe'
-	echo $path
-	Install-ChocolateyInstallPackage 'clover' 'exe' '/SILENT' $path
+	Install-ChocolateyInstallPackage 'clover' 'exe' '/SILENT' 'CloverSetup.exe'
 	Install-ChocolateyPinnedTaskBarItem "${env:ProgramFiles(x86)}\Clover\clover.exe"
 }
 try {
