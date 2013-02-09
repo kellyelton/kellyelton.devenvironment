@@ -1,4 +1,10 @@
-kellyelton.devenvironment
-=========================
+kellyelton.vsextensions
+=======================
+http://chocolatey.org/packages/kellyelton.devenvironment
 
-Chocolatey installer for my dev environment 
+# To Install
+* Install Chocolatey (http://chocolatey.org/)
+* Open Powershell(admin)
+* Run `set-executionpolicy remotesigned`
+* Run `cinst kellyelton.devenvironment`
+* You're good to go.
