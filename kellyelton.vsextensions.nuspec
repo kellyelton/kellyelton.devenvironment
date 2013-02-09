@@ -3,7 +3,7 @@
   <metadata>
     <id>kellyelton.devenvironment</id>
     <title>Kelly Eltons Dev Environment</title>
-    <version>1.0.0.0</version>
+    <version>1.0.0.1</version>
     <authors>Kelly Elton</authors>
     <owners>Kelly Elton</owners>
     <summary>Apps I install for development</summary>
@@ -22,7 +22,7 @@
 	  Chrome
 	  Clover
 	</description>
-    <projectUrl>https://github.com/kellyelton/kellyelton.vsextensions</projectUrl>
+    <projectUrl>https://github.com/kellyelton/kellyelton.devenvironment</projectUrl>
     <tags>dev</tags>
     <copyright>2013</copyright>
     <licenseUrl>http://www.gnu.org/licenses/gpl.html</licenseUrl>
