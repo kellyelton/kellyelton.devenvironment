@@ -32,6 +32,7 @@ try {
 	Install-ChocolateyInstallPackage 'clover' 'exe' '/S' $path
 	Install-ChocolateyPinnedTaskBarItem "${env:ProgramFiles(x86)}\Clover\clover.exe"
 	cinst virtuawin
+	cinst mysql.workbench
     Write-ChocolateySuccess $packageName
 } catch {
   #Write-ChocolateyFailure $packageName "$($_.Exception.Message)"

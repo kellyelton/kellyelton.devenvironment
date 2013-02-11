@@ -3,7 +3,7 @@
   <metadata>
     <id>kellyelton.devenvironment</id>
     <title>Kelly Eltons Dev Environment</title>
-    <version>1.0.0.2</version>
+    <version>1.0.0.3</version>
     <authors>Kelly Elton</authors>
     <owners>Kelly Elton</owners>
     <summary>Apps I install for development</summary>
@@ -22,6 +22,7 @@
 	  Chrome
 	  Clover
 	  VirtuaWin
+	  MySqlWorkbench
 	</description>
     <projectUrl>https://github.com/kellyelton/kellyelton.devenvironment</projectUrl>
     <tags>dev</tags>
