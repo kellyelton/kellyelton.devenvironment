@@ -1,4 +1,4 @@
-kellyelton.vsextensions
+kellyelton.devenvironment
 =======================
 http://chocolatey.org/packages/kellyelton.devenvironment
 
