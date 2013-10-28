@@ -3,26 +3,33 @@
   <metadata>
     <id>kellyelton.devenvironment</id>
     <title>Kelly Eltons Dev Environment</title>
-    <version>1.0.0.3</version>
+    <version>1.0.0.4</version>
     <authors>Kelly Elton</authors>
     <owners>Kelly Elton</owners>
     <summary>Apps I install for development</summary>
     <description>Apps I install for development
 
-	  VisualStudio2012Pro
+	  VisualStudio2013Pro
+	  VirtualCloneDrive
 	  Msysgit
 	  TortoiseGit
+	  Notepad++
+	  Linqpad4
 	  PoshGit
 	  TortoiseSvn
+	  Putty.Install
 	  WinSCP
 	  Nsis
-	  Nuget
+	  Nuget.CommandLine
 	  DragonDisk
 	  7zip
 	  Chrome
 	  Clover
 	  VirtuaWin
 	  MySqlWorkbench
+	  Vim
+	  Paint.Net
+	  LastPass
 	</description>
     <projectUrl>https://github.com/kellyelton/kellyelton.devenvironment</projectUrl>
     <tags>dev</tags>
@@ -30,9 +37,30 @@
     <licenseUrl>http://www.gnu.org/licenses/gpl.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>http://www.gravatar.com/avatar/2a9c790c93dec4979aa8702ab53d2c7a.png</iconUrl>
-    <!--<dependencies>
-      <dependency id="" version="" />
-    </dependencies>-->
+    <dependencies>
+      <dependency id="VisualStudio2013Professional" />
+      <dependency id="VirtualCloneDrive" />
+      <dependency id="notepadplusplus" />
+      <dependency id="beyondcompare" />
+      <dependency id="linqpad4" />
+      <dependency id="GoogleChrome" />
+      <dependency id="ChocolateyGUI" />
+	  <dependency id="msysgit" />
+	  <dependency id="TortoiseGit" />
+	  <dependency id="poshgit" />
+	  <dependency id="tortoisesvn" />
+	  <dependency id="putty.install"/>
+	  <dependency id="winscp" />
+	  <dependency id="nsis" />
+	  <dependency id="NuGet.CommandLine"/>
+	  <dependency id="dragondisk" />
+	  <dependency id="7zip.install" />
+	  <dependency id="virtuawin" />
+	  <dependency id="mysql.workbench" />
+	  <dependency id="vim"/>
+	  <dependency id="paint.net"/>
+	  <dependency id="lastpass"/>
+    </dependencies>
     <releaseNotes>Good Stuff</releaseNotes>
   </metadata>
   <files>
