@@ -23,10 +23,9 @@ try {
 	Install-ChocolateyPinnedTaskBarItem "${env:ProgramFiles(x86)}\Google\Chrome\Application\chrome.exe"
 	Install-ChocolateyPinnedTaskBarItem "${env:ProgramFiles(x86)}\LINQPad4\LINQPad.exe"
 	Install-ChocolateyPinnedTaskBarItem "${env:ProgramFiles(x86)}\Notepad++\notepad++.exe"
-	Install-ChocolateyPinnedTaskBarItem "${env:ProgramFiles(x86)}\vim\vim73\gvim.exe"
+	#Install-ChocolateyPinnedTaskBarItem "${env:ProgramFiles(x86)}\vim\vim74\gvim.exe"
 	Install-ChocolateyPinnedTaskBarItem "${env:ProgramFiles(x86)}\ChocolateyGUI\ChocolateyGUI.exe"
-	Install-ChocolateyPinnedTaskBarItem "${env:ProgramFiles(x86)}\WinSCP\WinSCP.exe"
-	ChocolateyPinnedTaskBarItem "%comspec% /k ""${env:ProgramFiles(x86)}\Microsoft Visual Studio 12.0\Common7\Tools\VsDevCmd.bat"""
+	#Install-ChocolateyPinnedTaskBarItem "C:\Chocolatey\lib\winscp.5.1.7\tools\WinSCP.exe"
     Write-ChocolateySuccess $packageName
 } catch {
   #Write-ChocolateyFailure $packageName "$($_.Exception.Message)"
