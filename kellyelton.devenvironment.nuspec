@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>kellyelton.devenvironment</id>
-    <version>1.0.0.9</version>
+    <version>1.0.0.10</version>
     <title>Kelly Eltons Dev Environment</title>
     <authors>Kelly Elton</authors>
     <owners>Kelly Elton</owners>
@@ -13,7 +13,6 @@
     <description>Apps I install for development
 
 	  VisualStudio2013Pro
-	  VirtualCloneDrive
 	  Msysgit
 	  TortoiseGit
 	  Notepad++
@@ -24,7 +23,6 @@
 	  WinSCP
 	  Nsis
 	  Nuget.CommandLine
-	  DragonDisk
 	  7zip
 	  Chrome
 	  Clover
@@ -32,34 +30,33 @@
 	  MySqlWorkbench
 	  Vim
 	  Paint.Net
-	  LastPass</description>
+	  LastPass
+	  ConEmu</description>
     <summary>Apps I install for development</summary>
     <releaseNotes>Fixed some dependencies and pinning.</releaseNotes>
-    <copyright>2013</copyright>
+    <copyright>2014</copyright>
     <tags>dev</tags>
     <dependencies>
       <dependency id="VisualStudio2013Professional" />
-      <dependency id="VirtualCloneDrive" />
       <dependency id="notepadplusplus" />
-      <dependency id="beyondcompare" />
-      <dependency id="linqpad4" />
-      <dependency id="GoogleChrome" />
-      <dependency id="ChocolateyGUI" />
       <dependency id="msysgit" />
       <dependency id="TortoiseGit" />
+	  <dependency id="linqpad4" />
       <dependency id="poshgit" />
       <dependency id="tortoisesvn" />
       <dependency id="putty.install" />
       <dependency id="winscp" />
       <dependency id="nsis" />
       <dependency id="NuGet.CommandLine" />
-      <dependency id="dragondisk" />
       <dependency id="7zip.install" />
+	  <dependency id="GoogleChrome" />
+	  <dependency id="Clover" />
       <dependency id="virtuawin" />
       <dependency id="mysql.workbench" />
       <dependency id="vim" />
       <dependency id="paint.net" />
       <dependency id="lastpass" />
+	  <dependency id="ConEmu" />
     </dependencies>
   </metadata>
   <files>
