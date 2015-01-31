@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>kellyelton.devenvironment</id>
-    <version>1.0.0.10</version>
+    <version>1.0.0.11</version>
     <title>Kelly Eltons Dev Environment</title>
     <authors>Kelly Elton</authors>
     <owners>Kelly Elton</owners>
@@ -31,7 +31,10 @@
 	  Vim
 	  Paint.Net
 	  LastPass
-	  ConEmu</description>
+      ConEmu
+      Fiddler
+      Snoop
+      IIS</description>
     <summary>Apps I install for development</summary>
     <releaseNotes>Fixed some dependencies and pinning.</releaseNotes>
     <copyright>2014</copyright>
@@ -57,6 +60,8 @@
       <dependency id="paint.net" />
       <dependency id="lastpass" />
 	  <dependency id="ConEmu" />
+      <dependency id="fiddler" />
+      <dependency id="snoop" />
     </dependencies>
   </metadata>
   <files>
