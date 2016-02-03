@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>kellyelton.devenvironment</id>
-    <version>1.0.0.11</version>
+    <version>1.0.0.12</version>
     <title>Kelly Eltons Dev Environment</title>
     <authors>Kelly Elton</authors>
     <owners>Kelly Elton</owners>
@@ -12,7 +12,6 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Apps I install for development
 
-	  VisualStudio2013Pro
 	  Msysgit
 	  TortoiseGit
 	  Notepad++
@@ -26,7 +25,6 @@
 	  7zip
 	  Chrome
 	  Clover
-	  VirtuaWin
 	  MySqlWorkbench
 	  Vim
 	  Paint.Net
@@ -40,7 +38,6 @@
     <copyright>2014</copyright>
     <tags>dev</tags>
     <dependencies>
-      <dependency id="VisualStudio2013Professional" />
       <dependency id="notepadplusplus" />
       <dependency id="msysgit" />
       <dependency id="TortoiseGit" />
@@ -54,7 +51,6 @@
       <dependency id="7zip.install" />
 	  <dependency id="GoogleChrome" />
 	  <dependency id="Clover" />
-      <dependency id="virtuawin" />
       <dependency id="mysql.workbench" />
       <dependency id="vim" />
       <dependency id="paint.net" />
