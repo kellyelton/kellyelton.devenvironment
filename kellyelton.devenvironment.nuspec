@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>kellyelton.devenvironment</id>
-    <version>1.0.0.12</version>
+    <version>$version$</version>
     <title>Kelly Eltons Dev Environment</title>
     <authors>Kelly Elton</authors>
     <owners>Kelly Elton</owners>
@@ -17,9 +17,6 @@
 	  Notepad++
 	  Linqpad4
 	  PoshGit
-	  TortoiseSvn
-	  Putty.Install
-	  WinSCP
 	  Nsis
 	  Nuget.CommandLine
 	  7zip
@@ -29,10 +26,10 @@
 	  Vim
 	  Paint.Net
 	  LastPass
-      ConEmu
-      Fiddler
-      Snoop
-      IIS</description>
+	  ConEmu
+	  Fiddler
+	  Snoop
+	  IIS</description>
     <summary>Apps I install for development</summary>
     <releaseNotes>Fixed some dependencies and pinning.</releaseNotes>
     <copyright>2014</copyright>
@@ -41,21 +38,18 @@
       <dependency id="notepadplusplus" />
       <dependency id="msysgit" />
       <dependency id="TortoiseGit" />
-	  <dependency id="linqpad4" />
+      <dependency id="linqpad4" />
       <dependency id="poshgit" />
-      <dependency id="tortoisesvn" />
-      <dependency id="putty.install" />
-      <dependency id="winscp" />
       <dependency id="nsis" />
       <dependency id="NuGet.CommandLine" />
       <dependency id="7zip.install" />
-	  <dependency id="GoogleChrome" />
-	  <dependency id="Clover" />
+      <dependency id="GoogleChrome" />
+      <dependency id="Clover" />
       <dependency id="mysql.workbench" />
       <dependency id="vim" />
       <dependency id="paint.net" />
       <dependency id="lastpass" />
-	  <dependency id="ConEmu" />
+      <dependency id="ConEmu" />
       <dependency id="fiddler" />
       <dependency id="snoop" />
     </dependencies>
